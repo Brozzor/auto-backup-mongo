@@ -1,0 +1,5 @@
+apps:
+  - script: NODE_ENV=production node app.js
+    name: auto-backup-mongodb
+    restart_delay: 1000
+    log_date_format: 'YYYY-MM-DD HH:mm Z'
